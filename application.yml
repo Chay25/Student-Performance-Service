@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/student_predictions}
+    username: ${SPRING_DATASOURCE_USERNAME:student_app}
+    password: ${SPRING_DATASOURCE_PASSWORD:local-dev-password-change-me}
+  jpa:
+    hibernate:
+      ddl-auto: update # Demo only: use database migrations in production
+    open-in-view: false
+app:
+  api-key: ${APP_API_KEY:dev-only-change-me}
+  model-url: ${APP_MODEL_URL:http://localhost:8000}
+server:
+  error:
+    include-message: always
