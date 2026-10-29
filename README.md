@@ -1,5 +1,4 @@
-# <img src="assets/logo.png" alt="Graduation cap logo" width="36" height="36"> Student Performance Prediction Service
-
+# <img src="logo-small.png" width="24" height="24" alt="Graduation logo"> Student Performance Prediction Service
 **Java 17 + Spring Boot + Python FastAPI + XGBoost + SHAP + PostgreSQL + Docker Compose**
 
 A portfolio-ready demonstration of a Java REST API calling a Python ML service, storing prediction history, and returning explainability factors. **The training set is entirely synthetic and the resulting scores are not valid real-world student assessments.**
